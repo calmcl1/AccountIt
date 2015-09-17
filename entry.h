@@ -11,7 +11,7 @@ class Entry
 public:
     unsigned long   ID;
     struct tm       date;
-    std::string          description;
+    std::string     description;
     unsigned long   account;
     unsigned long   transaction;
     double          unit_cost;

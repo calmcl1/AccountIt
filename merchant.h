@@ -7,7 +7,7 @@ class Merchant
 {
 public:
     unsigned long   ID;
-    std::string          name;
+    std::string     name;
     bool            is_client;
 };
 

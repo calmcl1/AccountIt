@@ -19,17 +19,10 @@ public:
     struct tm           date_posted;
     struct tm           date_due;
     struct tm           date_paid;
-    unsigned long       entries[0] = {};
+    unsigned long       entries[] = {};
 
-    /** \brief This is the class definition for an Invoice (or bill) object.
-    *
-    * \param	id The invoice unique ID.
-    * \return	void
-    *
-    * This is a detailed description.
-    */
-    void steveyBobs(int id);
-
+    /* Constructor */
+    Invoice();
 };
 
 #endif // INVOICEH
