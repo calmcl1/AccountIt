@@ -7,3 +7,9 @@
 #include "job.h"
 #include "receipt.h"
 #include "merchant.h"
+
+int main()
+{
+    printf("123\n");
+    printf("qwertyuiop");
+}

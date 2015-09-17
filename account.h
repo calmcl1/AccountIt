@@ -8,7 +8,7 @@ class Account
 {
 public:
     unsigned long       ID;
-    string              name;
+    std::string              name;
     enum currency_list  currency;
     unsigned long       transactions[];
     double              opening_balance;
