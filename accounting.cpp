@@ -8,6 +8,8 @@
 #include "receipt.h"
 #include "merchant.h"
 
+#include <QtCore>
+
 int main()
 {
     printf("123\n");
