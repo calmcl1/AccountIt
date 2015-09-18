@@ -8,10 +8,9 @@
 #include "receipt.h"
 #include "merchant.h"
 
-#include <QtCore>
-
-int main()
+#include <QApplication>
+int main(int argc, char **argv)
 {
-    printf("123\n");
-    printf("qwertyuiop");
+    QApplication app(argc, argv);
+    return app.exec();
 }
