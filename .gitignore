@@ -2,3 +2,7 @@
 *.o
 *.exe
 *.out
+*.in
+*.cache
+*.log
+*.scan
