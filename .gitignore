@@ -3,6 +3,17 @@
 *.exe
 *.out
 *.in
+*.in~
 *.cache
 *.log
 *.scan
+*.status
+*.m4
+*.gz
+*.layout
+*depcomp*
+*missing*
+*stamp-h1*
+*install-sh*
+*.Po
+*THIS IS*

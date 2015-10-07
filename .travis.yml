@@ -1,0 +1,8 @@
+language: cpp
+compiler: gcc
+
+before-install:
+    - apt-get update -qq
+    - apt-get install wx-common libwxbase3.0-0 libwxbase3.0-dev -qq
+
+install: ./configure && make && make-install

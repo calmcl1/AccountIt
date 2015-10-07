@@ -10,11 +10,11 @@
 class Invoice
 {
 public:
-    std::string              ID;
-    std::string              notes;
+    std::string         ID;
+    std::string         notes;
     bool                is_bill;
     enum currency_list  currency;
-    std::string              job_ID;
+    std::string         job_ID;
     unsigned long       merchant;
     struct tm           date_posted;
     struct tm           date_due;
