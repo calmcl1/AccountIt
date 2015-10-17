@@ -8,7 +8,9 @@ addons:
     - wx-common
     - libwxbase3.0-0
     - libwxbase3.0-dev
+    - libwxbase2.8-0
+    - libwxbase2.8-dev
 
-before-install:
+before_install:
   - chmod +x configure
 install: ./configure && make && make-install
