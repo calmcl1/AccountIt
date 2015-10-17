@@ -1,9 +1,12 @@
 language: cpp
 compiler: gcc
-sudo: required
+sudo: false
 
-before-install:
-    - apt-get update -qq
-    - apt-get install wx-common libwxbase3.0-0 libwxbase3.0-dev -qq
+addons:
+  apt:
+    packages:
+    - wx-common
+    - libwxbase3.0-0
+    - libwxbase3.0-dev
 
 install: ./configure && make && make-install
