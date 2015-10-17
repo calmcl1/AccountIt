@@ -16,4 +16,4 @@ before_install:
   - autoreconf -vfi
   - chmod +x configure
 
-install: ./configure && make && make-install
+install: ./configure && make && make install
