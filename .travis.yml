@@ -11,10 +11,12 @@ addons:
     - libwxbase2.8-0
     - libwxbase2.8-dev
 
-before_install:
+install: true
+
+before_script:
   - cp README.MD README
   - autoreconf -vfi
   - chmod +x configure
 
-install:
+script:
   - ./configure --prefix=$HOME/accountit_build && make
