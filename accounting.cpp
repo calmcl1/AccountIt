@@ -45,6 +45,5 @@ MyFrame::MyFrame(const wxString& title, const wxPoint& pos, const wxSize& size)
 
 int main()
 {
-    Entry e1;
     return 0;
 }
