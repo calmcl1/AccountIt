@@ -10,7 +10,8 @@ public:
     unsigned long       ID;
     std::string         name;
     enum currency_list  currency;
-    unsigned long       transactions[] = {};
+    /*unsigned long       transactions[] = {};*/
+    unsigned long       transactions[];
     double              opening_balance;
 };
 

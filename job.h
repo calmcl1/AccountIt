@@ -8,7 +8,8 @@ class Job
 public:
     unsigned long ID;
     unsigned long client;
-    unsigned long invoices[] = {};
+/*    unsigned long invoices[] = {};*/
+    unsigned long invoices[];
 };
 
 #endif // JOBH
