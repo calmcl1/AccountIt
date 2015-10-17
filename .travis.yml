@@ -9,4 +9,6 @@ addons:
     - libwxbase3.0-0
     - libwxbase3.0-dev
 
+before-install:
+  - chmod +x configure
 install: ./configure && make && make-install
