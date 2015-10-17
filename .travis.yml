@@ -17,5 +17,5 @@ before_install:
   - chmod +x configure
 
 install:
-  - echo "Running ./configure --prefix=$HOME/accountit_build && make && make install"
-  - ./configure --prefix=$HOME/accountit_build && make && make install
+  - echo "Running ./configure --prefix=$HOME/accountit_build && make
+  - ./configure --prefix=$HOME/accountit_build && make
