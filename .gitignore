@@ -12,3 +12,11 @@
 *.Po
 *THIS IS*
 m
+depcomp
+missing
+*.in
+*.m4
+*.layout
+compile
+configure
+Makefile

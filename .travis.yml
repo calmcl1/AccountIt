@@ -12,6 +12,7 @@ addons:
     - libwxbase2.8-dev
 
 before_install:
+  - cp README.MD README
   - autoreconf -vfi
   - chmod +x configure
 
