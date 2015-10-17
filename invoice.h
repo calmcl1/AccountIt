@@ -19,7 +19,8 @@ public:
     struct tm           date_posted;
     struct tm           date_due;
     struct tm           date_paid;
-    unsigned long       entries[] = {};
+    /*unsigned long       entries[] = {};*/
+    unsigned long entries [];
 
     /* Constructor */
     Invoice();
