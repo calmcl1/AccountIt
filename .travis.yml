@@ -10,6 +10,7 @@ addons:
     - libwxbase3.0-dev
     - libwxbase2.8-0
     - libwxbase2.8-dev
+    - aclocal-1.14
 
 before_install:
   - chmod +x configure
