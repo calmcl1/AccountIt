@@ -2,12 +2,12 @@
 
 Entry::Entry()
 {
-    printf("cheese");
+    std::cout << "Cool." << std::endl;
 }
 
 bool Entry::set_ID(unsigned long ID)
 {
     Entry::ID = ID;
-    return Entry::ID = ID ? true : false;
+    return (Entry::ID = ID) ? true : false;
 }
 
