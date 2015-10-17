@@ -19,4 +19,6 @@ before_script:
   - chmod +x configure
 
 script:
-  - ./configure --prefix=$HOME/accountit_build && make && make install
+  - ./configure --prefix=$HOME/accountit_build
+  - make
+  - make install
