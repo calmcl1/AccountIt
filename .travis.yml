@@ -18,7 +18,7 @@ before_install:
 
 install:
   - echo "Running ./configure"
-  - ./configure
+  - ./configure --prefix=$HOME/accountit_build
   - echo "Running make"
   - make
   - echo "Running make install"
