@@ -14,7 +14,7 @@
     #include <wx/wx.h>
 #endif
 
-class MyApp: public wxApp
+/*class MyApp: public wxApp
 {
 public:
     virtual bool OnInit();
@@ -41,7 +41,7 @@ MyFrame::MyFrame(const wxString& title, const wxPoint& pos, const wxSize& size)
     CreateStatusBar();
     SetStatusText( "Welcome to wxWidgets!" );
     printf("Frame created");
-}
+}*/
 
 int main()
 {
