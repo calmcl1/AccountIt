@@ -22,6 +22,6 @@ before_script:
   - chmod +x configure
 
 script:
-  - ./configure --host=i586-mingw32msvc --build=i686-linux --prefix=$HOME/accountit_build
+  - ./configure --host=i586-mingw32msvc --build=i686-linux --prefix=/usr/local/i586-mingw32
   - make
   - make install
