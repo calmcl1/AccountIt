@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.68])
-AC_INIT([accountit], [0.1], [calmcl1@aol.com])
+AC_INIT([accountit], [0.01], [calmcl1@aol.com])
 AM_INIT_AUTOMAKE
 AC_CONFIG_SRCDIR([account.h])
 AC_CONFIG_HEADERS([config.h])
