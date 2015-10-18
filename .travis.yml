@@ -20,7 +20,7 @@ before_script:
   - cp README.MD README
   - autoreconf -vfi
   - chmod +x configure
-  - export LD_LIBRARY_PATH=`wx-config --libs`:$LD_LIBRARY_PATH
+  - export accountit_LDFLAGS=-L`wx-config --libs`:accountit_LDFLAGS
 
 script:
   - ./configure --host=i586-mingw32msvc --build=i686-linux --prefix=/usr/local/i586-mingw32
