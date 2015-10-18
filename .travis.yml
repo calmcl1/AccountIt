@@ -10,6 +10,9 @@ addons:
     - libwxbase3.0-dev
     - libwxbase2.8-0
     - libwxbase2.8-dev
+    - mingw32
+    - mingw32-binutils
+    - mingw32-runtime
 
 install: true
 
@@ -19,6 +22,6 @@ before_script:
   - chmod +x configure
 
 script:
-  - ./configure --prefix=$HOME/accountit_build
+  - ./configure --host=i586-mingw32msvc --build=i686-linux --prefix=$HOME/accountit_build
   - make
   - make install
