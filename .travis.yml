@@ -24,6 +24,6 @@ before_script:
   #- export $accountit_LDFLAGS=$accountit_LDFLAGS:"`wx-config --libs`"
 
 script:
-  - ./configure --host=i586-mingw32msvc --build=i686-linux --prefix=/usr/local/i586-mingw32
+  - ./configure --host=i586-mingw32msvc --build=i686-linux #--prefix=/usr/local/i586-mingw32
   - make
   - make install
