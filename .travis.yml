@@ -10,9 +10,6 @@ addons:
     - libwxbase3.0-dev
     - libwxbase2.8-0
     - libwxbase2.8-dev
-    - mingw32
-    - mingw32-binutils
-    - mingw32-runtime
 
 install: true
 
@@ -20,10 +17,8 @@ before_script:
   - cp README.MD README
   - autoreconf -vfi
   - chmod +x configure
-  - wx-config --libs
-  #- export $accountit_LDFLAGS=$accountit_LDFLAGS:"`wx-config --libs`"
 
 script:
-  - ./configure --host=i586-mingw32msvc --build=i686-linux #--prefix=/usr/local/i586-mingw32
+  - ./configure --prefix=$HOME/accountit_build
   - make
-  - make install
+  -make install
