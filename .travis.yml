@@ -20,6 +20,7 @@ before_script:
   - cp README.MD README
   - autoreconf -vfi
   - chmod +x configure
+  - export LD_LIBRARY_PATH=`wx-config --static --libs`:$LD_LIBRARY_PATH
 
 script:
   - ./configure --host=i586-mingw32msvc --build=i686-linux --prefix=/usr/local/i586-mingw32
