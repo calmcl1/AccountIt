@@ -20,6 +20,7 @@ before_script:
   - cp README.MD README
   - autoreconf -vfi
   - chmod +x configure
+  - wx-config --libs
   - export $accountit_LDFLAGS=`wx-config --libs`:$accountit_LDFLAGS
 
 script:
