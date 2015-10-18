@@ -21,4 +21,4 @@ before_script:
 script:
   - ./configure --prefix=$HOME/accountit_build
   - make
-  -make install
+  - make install
